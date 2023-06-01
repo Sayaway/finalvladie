@@ -78,12 +78,18 @@ header img {
   width: 60px;
   height: auto;
 }
-.container {
+.container{
+  width: 100%;
+  max-width: 2000px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/*.container {
   width: 1300px;
   border-left: 144px solid gray;
   border-right: 144px solid gray;
   padding: 10px;
-}
+}*/
 .image-right {
   display: flex;
   align-items: center;
